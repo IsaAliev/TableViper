@@ -7,11 +7,5 @@
 //
 
 protocol EmployeeListViewInput: class {
-
-    /**
-        @author Isa Aliev
-        Setup initial state of the view
-    */
-
-    func setupInitialState()
+    func updateForSections(_ sections: [EmployeeSectionModel])
 }

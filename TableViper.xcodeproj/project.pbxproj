@@ -18,6 +18,24 @@
 		AEF6B258714693341C097081 /* EmployeeListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A101A283267B6F86CBE16C0 /* EmployeeListInteractor.swift */; };
 		B0D8755EE4AFB3D0F2C6FF1B /* EmployeeListModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E0F6ABCCF246E16B36170 /* EmployeeListModuleInput.swift */; };
 		B6D605880DB18894014926CC /* EmployeeListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B54310713E099B21DD17DA /* EmployeeListInteractorInput.swift */; };
+		CE3CBA012013DA1000D4DF0E /* CellIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA002013DA1000D4DF0E /* CellIdentifiable.swift */; };
+		CE3CBA062013DF3500D4DF0E /* EmployeeLoadServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA052013DF3500D4DF0E /* EmployeeLoadServiceInterface.swift */; };
+		CE3CBA082013DF8A00D4DF0E /* EmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA072013DF8A00D4DF0E /* EmployeeService.swift */; };
+		CE3CBA0B2013DFAB00D4DF0E /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA0A2013DFAB00D4DF0E /* Employee.swift */; };
+		CE3CBA0E2013E1AD00D4DF0E /* Employee0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE3CBA0D2013E1AD00D4DF0E /* Employee0.jpg */; };
+		CE3CBA102013E1C600D4DF0E /* Employee1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE3CBA0F2013E1C600D4DF0E /* Employee1.jpg */; };
+		CE3CBA142013E4B800D4DF0E /* Employee2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE3CBA132013E4B800D4DF0E /* Employee2.jpg */; };
+		CE3CBA162013E4FE00D4DF0E /* ModelRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA152013E4FE00D4DF0E /* ModelRepresentable.swift */; };
+		CE3CBA182013E5A000D4DF0E /* SectionRowsRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA172013E5A000D4DF0E /* SectionRowsRepresentable.swift */; };
+		CE3CBA1C2014759900D4DF0E /* EmployeeBaseInfoCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA1B2014759900D4DF0E /* EmployeeBaseInfoCellModel.swift */; };
+		CE3CBA1E2014769E00D4DF0E /* EmployeeBaseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA1D2014769E00D4DF0E /* EmployeeBaseCellModel.swift */; };
+		CE3CBA202014782300D4DF0E /* EmployeeWorkplaceCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA1F2014782300D4DF0E /* EmployeeWorkplaceCellModel.swift */; };
+		CE3CBA22201485BC00D4DF0E /* ButtonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA21201485BC00D4DF0E /* ButtonCellModel.swift */; };
+		CE3CBA252014868100D4DF0E /* EmployeeBaseInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA242014868100D4DF0E /* EmployeeBaseInfoCell.swift */; };
+		CE3CBA272014868F00D4DF0E /* EmployeeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA262014868F00D4DF0E /* EmployeeBaseCell.swift */; };
+		CE3CBA29201487ED00D4DF0E /* EmployeeWorkplaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA28201487ED00D4DF0E /* EmployeeWorkplaceCell.swift */; };
+		CE3CBA2B2014883E00D4DF0E /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA2A2014883E00D4DF0E /* ButtonCell.swift */; };
+		CE3CBA2D201488E900D4DF0E /* EmployeeSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CBA2C201488E900D4DF0E /* EmployeeSectionModel.swift */; };
 		CE8F041B2013C2A30061F034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F041A2013C2A30061F034 /* AppDelegate.swift */; };
 		CE8F04222013C2A30061F034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8F04212013C2A30061F034 /* Assets.xcassets */; };
 		CE8F04252013C2A30061F034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8F04232013C2A30061F034 /* LaunchScreen.storyboard */; };
@@ -37,6 +55,25 @@
 		A636C74B31FE7FC0336E900F /* EmployeeListViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmployeeListViewInput.swift; sourceTree = "<group>"; };
 		AF66EC3731A117D3B3F04AAF /* EmployeeListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmployeeListRouter.swift; sourceTree = "<group>"; };
 		C80934D622EC78DF3ADB580C /* EmployeeListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmployeeListInteractorOutput.swift; sourceTree = "<group>"; };
+		CE3CBA002013DA1000D4DF0E /* CellIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiable.swift; sourceTree = "<group>"; };
+		CE3CBA032013DBBE00D4DF0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE3CBA052013DF3500D4DF0E /* EmployeeLoadServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLoadServiceInterface.swift; sourceTree = "<group>"; };
+		CE3CBA072013DF8A00D4DF0E /* EmployeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeService.swift; sourceTree = "<group>"; };
+		CE3CBA0A2013DFAB00D4DF0E /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		CE3CBA0D2013E1AD00D4DF0E /* Employee0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Employee0.jpg; sourceTree = "<group>"; };
+		CE3CBA0F2013E1C600D4DF0E /* Employee1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Employee1.jpg; sourceTree = "<group>"; };
+		CE3CBA132013E4B800D4DF0E /* Employee2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Employee2.jpg; sourceTree = "<group>"; };
+		CE3CBA152013E4FE00D4DF0E /* ModelRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRepresentable.swift; sourceTree = "<group>"; };
+		CE3CBA172013E5A000D4DF0E /* SectionRowsRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowsRepresentable.swift; sourceTree = "<group>"; };
+		CE3CBA1B2014759900D4DF0E /* EmployeeBaseInfoCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeBaseInfoCellModel.swift; sourceTree = "<group>"; };
+		CE3CBA1D2014769E00D4DF0E /* EmployeeBaseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeBaseCellModel.swift; sourceTree = "<group>"; };
+		CE3CBA1F2014782300D4DF0E /* EmployeeWorkplaceCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeWorkplaceCellModel.swift; sourceTree = "<group>"; };
+		CE3CBA21201485BC00D4DF0E /* ButtonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCellModel.swift; sourceTree = "<group>"; };
+		CE3CBA242014868100D4DF0E /* EmployeeBaseInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeBaseInfoCell.swift; sourceTree = "<group>"; };
+		CE3CBA262014868F00D4DF0E /* EmployeeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeBaseCell.swift; sourceTree = "<group>"; };
+		CE3CBA28201487ED00D4DF0E /* EmployeeWorkplaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeWorkplaceCell.swift; sourceTree = "<group>"; };
+		CE3CBA2A2014883E00D4DF0E /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		CE3CBA2C201488E900D4DF0E /* EmployeeSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeSectionModel.swift; sourceTree = "<group>"; };
 		CE8F04172013C2A30061F034 /* TableViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8F041A2013C2A30061F034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8F04212013C2A30061F034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +99,10 @@
 		07BBB2FE1EE50977427CC1AD /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				CE3CBA2E2014967400D4DF0E /* SectionModels */,
+				CE3CBA232014866E00D4DF0E /* Cells */,
+				CE3CBA1A2014757F00D4DF0E /* CellModels */,
+				CE3CB9FF2013D9F200D4DF0E /* Protocols */,
 				746E0F6ABCCF246E16B36170 /* EmployeeListModuleInput.swift */,
 				F275451BD80215740A04E696 /* EmployeeListPresenter.swift */,
 			);
@@ -127,11 +168,97 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		CE3CB9FF2013D9F200D4DF0E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA002013DA1000D4DF0E /* CellIdentifiable.swift */,
+				CE3CBA152013E4FE00D4DF0E /* ModelRepresentable.swift */,
+				CE3CBA172013E5A000D4DF0E /* SectionRowsRepresentable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE3CBA022013DBBD00D4DF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA032013DBBE00D4DF0E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3CBA042013DF2300D4DF0E /* AccessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA092013DF9E00D4DF0E /* Entities */,
+				CE3CBA19201474F700D4DF0E /* EmployeeAPI */,
+			);
+			path = AccessLayer;
+			sourceTree = "<group>";
+		};
+		CE3CBA092013DF9E00D4DF0E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA0C2013E1A200D4DF0E /* Photos */,
+				CE3CBA0A2013DFAB00D4DF0E /* Employee.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CE3CBA0C2013E1A200D4DF0E /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA132013E4B800D4DF0E /* Employee2.jpg */,
+				CE3CBA0F2013E1C600D4DF0E /* Employee1.jpg */,
+				CE3CBA0D2013E1AD00D4DF0E /* Employee0.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		CE3CBA19201474F700D4DF0E /* EmployeeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA052013DF3500D4DF0E /* EmployeeLoadServiceInterface.swift */,
+				CE3CBA072013DF8A00D4DF0E /* EmployeeService.swift */,
+			);
+			path = EmployeeAPI;
+			sourceTree = "<group>";
+		};
+		CE3CBA1A2014757F00D4DF0E /* CellModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA1D2014769E00D4DF0E /* EmployeeBaseCellModel.swift */,
+				CE3CBA1B2014759900D4DF0E /* EmployeeBaseInfoCellModel.swift */,
+				CE3CBA1F2014782300D4DF0E /* EmployeeWorkplaceCellModel.swift */,
+				CE3CBA21201485BC00D4DF0E /* ButtonCellModel.swift */,
+			);
+			path = CellModels;
+			sourceTree = "<group>";
+		};
+		CE3CBA232014866E00D4DF0E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA242014868100D4DF0E /* EmployeeBaseInfoCell.swift */,
+				CE3CBA262014868F00D4DF0E /* EmployeeBaseCell.swift */,
+				CE3CBA28201487ED00D4DF0E /* EmployeeWorkplaceCell.swift */,
+				CE3CBA2A2014883E00D4DF0E /* ButtonCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE3CBA2E2014967400D4DF0E /* SectionModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CBA2C201488E900D4DF0E /* EmployeeSectionModel.swift */,
+			);
+			path = SectionModels;
+			sourceTree = "<group>";
+		};
 		CE8F040E2013C2A30061F034 = {
 			isa = PBXGroup;
 			children = (
 				CE8F04192013C2A30061F034 /* TableViper */,
 				CE8F04182013C2A30061F034 /* Products */,
+				CE3CBA022013DBBD00D4DF0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +273,7 @@
 		CE8F04192013C2A30061F034 /* TableViper */ = {
 			isa = PBXGroup;
 			children = (
+				CE3CBA042013DF2300D4DF0E /* AccessLayer */,
 				CE8F042C2013C4820061F034 /* ApplicationLayer */,
 				AEFFF682FAB71A4145F9B3BC /* PresentationLayer */,
 				CE8F04212013C2A30061F034 /* Assets.xcassets */,
@@ -156,9 +284,9 @@
 		CE8F042C2013C4820061F034 /* ApplicationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				CE8F041A2013C2A30061F034 /* AppDelegate.swift */,
 				CE8F04262013C2A30061F034 /* Info.plist */,
 				CE8F04232013C2A30061F034 /* LaunchScreen.storyboard */,
-				CE8F041A2013C2A30061F034 /* AppDelegate.swift */,
 				CE8F042D2013CDDB0061F034 /* RootWireframe.swift */,
 			);
 			path = ApplicationLayer;
@@ -232,7 +360,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8F04252013C2A30061F034 /* LaunchScreen.storyboard in Resources */,
+				CE3CBA142013E4B800D4DF0E /* Employee2.jpg in Resources */,
+				CE3CBA0E2013E1AD00D4DF0E /* Employee0.jpg in Resources */,
 				CE8F04222013C2A30061F034 /* Assets.xcassets in Resources */,
+				CE3CBA102013E1C600D4DF0E /* Employee1.jpg in Resources */,
 				CE8F04302013CE630061F034 /* EmployeeList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,19 +376,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8F041B2013C2A30061F034 /* AppDelegate.swift in Sources */,
+				CE3CBA0B2013DFAB00D4DF0E /* Employee.swift in Sources */,
 				A7A3687996D31F37023DB15D /* EmployeeListViewInput.swift in Sources */,
+				CE3CBA202014782300D4DF0E /* EmployeeWorkplaceCellModel.swift in Sources */,
 				CE8F042E2013CDDB0061F034 /* RootWireframe.swift in Sources */,
 				5D572ADC2EAAEEA8F015E21F /* EmployeeListViewOutput.swift in Sources */,
+				CE3CBA252014868100D4DF0E /* EmployeeBaseInfoCell.swift in Sources */,
 				0A0BF14C799C3A3BC4C4BBE4 /* EmployeeListViewController.swift in Sources */,
+				CE3CBA1E2014769E00D4DF0E /* EmployeeBaseCellModel.swift in Sources */,
+				CE3CBA062013DF3500D4DF0E /* EmployeeLoadServiceInterface.swift in Sources */,
 				B0D8755EE4AFB3D0F2C6FF1B /* EmployeeListModuleInput.swift in Sources */,
 				260504EC37ED20E04CBCB3A0 /* EmployeeListPresenter.swift in Sources */,
 				B6D605880DB18894014926CC /* EmployeeListInteractorInput.swift in Sources */,
+				CE3CBA162013E4FE00D4DF0E /* ModelRepresentable.swift in Sources */,
+				CE3CBA29201487ED00D4DF0E /* EmployeeWorkplaceCell.swift in Sources */,
+				CE3CBA1C2014759900D4DF0E /* EmployeeBaseInfoCellModel.swift in Sources */,
+				CE3CBA2D201488E900D4DF0E /* EmployeeSectionModel.swift in Sources */,
 				66CF520990D74FD28B197E29 /* EmployeeListInteractorOutput.swift in Sources */,
 				AEF6B258714693341C097081 /* EmployeeListInteractor.swift in Sources */,
+				CE3CBA182013E5A000D4DF0E /* SectionRowsRepresentable.swift in Sources */,
+				CE3CBA012013DA1000D4DF0E /* CellIdentifiable.swift in Sources */,
 				2020B37DBBF3ED1F25E888C7 /* EmployeeListRouterInput.swift in Sources */,
 				8F0BDCC8B30DD008AC4F7460 /* EmployeeListRouter.swift in Sources */,
 				5418B24C893629DC71095317 /* EmployeeListConfigurator.swift in Sources */,
+				CE3CBA22201485BC00D4DF0E /* ButtonCellModel.swift in Sources */,
+				CE3CBA082013DF8A00D4DF0E /* EmployeeService.swift in Sources */,
+				CE3CBA272014868F00D4DF0E /* EmployeeBaseCell.swift in Sources */,
 				D5999091E141199DB95EEC2F /* EmployeeListInitializer.swift in Sources */,
+				CE3CBA2B2014883E00D4DF0E /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

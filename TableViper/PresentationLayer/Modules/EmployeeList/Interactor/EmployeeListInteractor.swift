@@ -7,7 +7,13 @@
 //
 
 class EmployeeListInteractor: EmployeeListInteractorInput {
-
     weak var output: EmployeeListInteractorOutput!
-
+    
+    var employeeLoadService: EmployeeLoadServiceInterface!
+    
+    func getEmployees() {
+        employeeLoadService.loadEmployees { [weak self] (employees) in
+            self?.output.employeesDidReceive(employees)
+        }
+    }
 }

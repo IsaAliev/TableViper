@@ -7,11 +7,5 @@
 //
 
 protocol EmployeeListViewOutput {
-
-    /**
-        @author Isa Aliev
-        Notify presenter that view is ready
-    */
-
-    func viewIsReady()
+    func viewDidLoad()
 }

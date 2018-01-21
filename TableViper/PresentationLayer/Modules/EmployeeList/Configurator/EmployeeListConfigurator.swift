@@ -9,7 +9,6 @@
 import UIKit
 
 class EmployeeListModuleConfigurator {
-
     func configureModuleForViewInput<UIViewController>(viewInput: UIViewController) {
 
         if let viewController = viewInput as? EmployeeListViewController {
@@ -27,9 +26,9 @@ class EmployeeListModuleConfigurator {
 
         let interactor = EmployeeListInteractor()
         interactor.output = presenter
-
+        interactor.employeeLoadService = EmployeeService()
+        
         presenter.interactor = interactor
         viewController.output = presenter
     }
-
 }
